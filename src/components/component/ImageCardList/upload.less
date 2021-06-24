@@ -1,0 +1,105 @@
+
+
+.after-sale-detail-page {
+  .after-sale-detail-body{
+    background-color: #fff;
+    padding: 10px 20px 50px 20px;
+    .detail-label{
+      font-weight: bolder;
+      padding-right: 7px;
+    }
+  }
+
+}
+
+.good-list-page {
+  .goodimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
+.after-sale-detail-page {
+  .shuff {
+    & > div:nth-child(1) {
+      > label::before {
+        content: '*';
+        padding-right: 5px;
+        color: red;
+      }
+    }
+  }
+  .customer-file-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 66px;
+    padding: 8px;
+    margin: 8px 8px 0 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    max-width: 448px;
+    .left {
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      overflow: hidden;
+      .pic {
+        flex-shrink: 0;
+      }
+      .pic-detail {
+        max-width: 100%;
+        overflow: hidden;
+        flex-shrink: 1;
+      }
+      .pic-name {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 100%;
+      }
+    }
+    .right {
+      flex-shrink: 0;
+    }
+    .pic {
+      display: block;
+      width: 48px;
+      height: 48px;
+      overflow: hidden;
+      margin-right: 8px;
+    }
+    .pic-btn {
+      padding-right: 5px;
+    }
+  }
+}
+.goods-import-page {
+  //去除鼠标悬浮的背景色
+  .ant-table-tbody > tr > td {
+    background: rgba(255,255,255,0) !important;
+  }
+  .ant-table-tbody > tr >td:hover{
+    background: rgba(255,255,255,0) !important;
+  }
+  .red{
+    background: red !important;
+  }
+}
+.good-selling-page {
+  .editable-cell-value-wrap {
+    padding: 5px 12px;
+    cursor: pointer;
+  }
+
+  .editable-row:hover .editable-cell-value-wrap {
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+  }
+}
+
+
+

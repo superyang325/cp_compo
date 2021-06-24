@@ -1,0 +1,20 @@
+---
+name: Order
+route: /order
+order: 3
+sidebar: true
+---
+
+import { Playground, Props } from 'docz'
+import Order from './index.js'
+
+# Order
+
+<Props of={Order} />
+
+## Basic usage
+
+<Playground>
+  <Order>Click me</Order>
+  <Order kind="secondary">Click me</Order>
+</Playground>

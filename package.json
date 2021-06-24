@@ -1,0 +1,29 @@
+{
+  "name": "cp_compo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx --max_old_space_size=8096 father doc dev --host 0.0.0.0",
+    "build": "father build",
+    "build:doc": "father doc build",
+    "deploy": "father doc deploy"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.14.6",
+    "antd": "3.26.3",
+    "axios": "^0.21.1",
+    "babel-plugin-import": "^1.13.3",
+    "cp_compo": "^1.0.0",
+    "docz": "^2.3.1",
+    "docz-core": "2.3.0",
+    "father": "2.16.0",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:superyang325/cp_compo.git"
+  }
+}

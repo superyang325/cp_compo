@@ -1,0 +1,24 @@
+.image-card-list-component{
+  display: flex;
+  flex-wrap: wrap;
+  .image-item-container {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    height: 110px;
+    width: 110px;
+    padding: 8px;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &:hover {
+      opacity: 0.8;
+    }
+    .image-item{
+      max-height: 100%;
+      max-width: 100%;
+    }
+  }
+}
